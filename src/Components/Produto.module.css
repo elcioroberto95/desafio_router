@@ -3,3 +3,12 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
+.produto img {
+  padding: 10px;
+}
+.produto span {
+  background: rgb(12, 12, 12);
+  padding: 0.5rem;
+  color: white;
+  font-weight: 500;
+}
