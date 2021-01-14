@@ -6,6 +6,8 @@ import Head from './Components/Head';
 import Header from './Components/Header';
 import Contato from './Components/Contato';
 import Questions from './Components/Questions';
+import Cadastro from './Components/cadastro';
+import Questions from './Components/Questions';
 const App = () => {
   return (
     <>
@@ -24,6 +26,12 @@ const App = () => {
           </Route>
           <Route path="/questions">
             <Questions />
+          </Route>
+          <Route path="/questions">
+            <Questions />
+          </Route>
+          <Route path="/cadastro">
+            <Cadastro />
           </Route>
         </Switch>
       </BrowserRouter>
