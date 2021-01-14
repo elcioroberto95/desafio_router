@@ -1,7 +1,10 @@
 import react from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Produtos from './Components/Produtos';
-
+import Produto from './Components/Produto';
+import Head from './Components/Head';
+import Header from './Components/Header';
+import Contato from './Components/Contato';
 const App = () => {
   return (
     <>
@@ -19,7 +22,6 @@ const App = () => {
             <Produto />
           </Route>
         </Switch>
-        <Footer />
       </BrowserRouter>
     </>
   );

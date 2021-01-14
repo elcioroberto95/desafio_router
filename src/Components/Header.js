@@ -1,10 +1,11 @@
 import react from 'react';
 import { NavLink } from 'react-router-dom';
+import styles from './Header.module.css';
 
 const Header = () => {
   return (
     <header>
-      <nav>
+      <nav className={styles.header}>
         <ul>
           <li>
             <NavLink exact to="/">

@@ -3,3 +3,25 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+.produto {
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px yellow, 10px 10px 10px white;
+}
+.produto h1 {
+  text-align: center;
+}
+.produto img {
+  display: flex;
+}
+img {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+h1 {
+  color: black;
+  text-align: margin 0 auto;
+}
+a {
+  text-decoration: none;
+}
