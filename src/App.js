@@ -7,7 +7,6 @@ import Header from './Components/Header';
 import Contato from './Components/Contato';
 import Questions from './Components/Questions';
 import Cadastro from './Components/cadastro';
-import Questions from './Components/Questions';
 const App = () => {
   return (
     <>
