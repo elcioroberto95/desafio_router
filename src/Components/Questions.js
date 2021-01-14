@@ -1,4 +1,5 @@
 import react, { useEffect, useState } from 'react';
+import Question from './Question';
 const perguntas = [
   {
     pergunta: 'Qual método é utilizado para criar componentes?',
